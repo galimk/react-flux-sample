@@ -4,7 +4,7 @@ var Header = require('./header/app-header');
 var Template = React.createClass({
     render: function () {
         return (
-            <div className="container">
+            <div className="container-fluid">
                 <Header />
                 {this.props.children}
             </div>
